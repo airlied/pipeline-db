@@ -1,0 +1,17 @@
+== What ==
+
+some helper scripts for a shader-db alike for vulkan.
+
+This relies on some patches to vktrace, and a working
+vktrace (tricky bits) to create the shaders, and also
+a vkreplay to replay any pipeline's we've recorded.
+
+== radv ==
+
+sh run.sh 2> newres
+
+./si-report.py oldres newres
+
+
+
+
